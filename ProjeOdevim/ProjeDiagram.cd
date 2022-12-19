@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjeOdevim.siparis">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="ProjeOdevim.yemekler" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="1.562" />
+        <Point X="4.5" Y="1.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAARAAAECAAABBAAAAAAAIAAAACAAAAAACAAA=</HashCode>
+      <FileName>siparis.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjeOdevim.fiyatlar">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAQAgIA=</HashCode>
+      <FileName>fiyatlar.cs</FileName>
+      <NewMemberFileName>siparis.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjeOdevim.Ödeme">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQCAg=</HashCode>
+      <FileName>ödeme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjeOdevim.yemekler">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAEAAAAEQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>yemekler.cs</FileName>
+      <NewMemberFileName>siparis.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjeOdevim.siparisOzet">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <InheritanceLine Type="ProjeOdevim.siparis" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6" Y="1.5" />
+        <Point X="8" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>siparisOzet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ProjeOdevim.Ibilgiler">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAARAAAACAAABBAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>bilgiler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjeOdevim.Iodeme">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQCAg=</HashCode>
+      <FileName>odeme.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
